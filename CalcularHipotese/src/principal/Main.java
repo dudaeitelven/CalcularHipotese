@@ -195,7 +195,7 @@ public class Main {
 
 		for (i = 0; i < aTimes.size() - 1; i++) {
 			for (j = 0; j < aTimes.size() - 1; j++) {
-				if (aTimes.get(j).getQtdeMensao() > aTimes.get(j + 1).getQtdeMensao()) {
+				if (aTimes.get(j).getQtdeMensao() < aTimes.get(j + 1).getQtdeMensao()) {
 					
 					tempTime = aTimes.get(j).getTime();
 					tempQtdeMensao = aTimes.get(j).getQtdeMensao();
