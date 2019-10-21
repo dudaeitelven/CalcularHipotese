@@ -212,10 +212,15 @@ public class Main {
 	}
 	
 	public static void ImprimeADados(ArrayList<Times> aTimes) {
+		System.out.println("Hipótese: Qual é o time mais mencionado no Twetter da Série A do campeonto Brasileiro ?");
+		System.out.println("Resposta: O Time mais mencionado é o time " + aTimes.get(0).getTime() + " com " + aTimes.get(0).getQtdeMensao() + " mensões. \n");
+		
 		System.out.println("-- Dados da análise --");
 		for (Times dados : aTimes) {
 			System.out.println("Time: " + dados.getTime() + " - Qtde mensões: " + dados.getQtdeMensao());
 		}
+		
+		System.out.println("\nHashtags pesquisadas: #CampeonatoDoBrasileiro, #Brasileirao");
 
 	}
 
