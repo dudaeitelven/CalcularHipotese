@@ -61,7 +61,7 @@ public class Main {
 				if (tweet.contains("Corinthians")) {
 					countCorinthians++;
 				}
-				if (tweet.contains("SãoPaulo")) {
+				if (tweet.contains("SaoPaulo")) {
 					countSaoPaulo++;
 				}
 				if (tweet.contains("SCInternacional")) {
