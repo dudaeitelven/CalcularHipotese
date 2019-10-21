@@ -212,7 +212,7 @@ public class Main {
 	}
 	
 	public static void ImprimeADados(ArrayList<Times> aTimes) {
-		System.out.println("Hipótese: Qual é o time mais mencionado no Twetter da Série A do campeonto Brasileiro ?");
+		System.out.println("Hipótese: Qual é o time mais mencionado no Twitter da Série A do campeonto Brasileiro ?");
 		System.out.println("Resposta: O Time mais mencionado é o time " + aTimes.get(0).getTime() + " com " + aTimes.get(0).getQtdeMensao() + " mensões. \n");
 		
 		System.out.println("-- Dados da análise --");
