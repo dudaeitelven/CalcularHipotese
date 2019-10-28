@@ -39,7 +39,7 @@ public class Main {
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(
-					new FileReader("C:\\Users\\Duda\\git\\TwitterApiJson\\TwitterApiJson\\src\\files\\twitter.txt"));
+					new FileReader("D:\\twitterAnalise.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -220,7 +220,7 @@ public class Main {
 			System.out.println("Time: " + dados.getTime() + " - Qtde mensões: " + dados.getQtdeMensao());
 		}
 		
-		System.out.println("\nHashtags pesquisadas: #CampeonatoDoBrasileiro, #Brasileirao");
+		System.out.println("\nHashtags pesquisadas: #CampeonatoDoBrasileiro, #Brasileirao, #Brasileirao2019");
 
 	}
 
